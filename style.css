@@ -1,0 +1,154 @@
+.hea{
+    text-align: center;
+    background-color: blue;
+    color: rgb(169, 169, 169);
+}
+.logo{
+    float:left;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 30px;
+    color: cyan;
+}
+.count{
+    float:left;
+    display: flex;
+    flex-direction: row;
+    
+    padding-left: 30px;
+    margin-top: 1px;
+   
+}
+.logo01{
+    background-image: url('./image/logo.jpg');
+    background-size: 100px 100%;
+    
+}
+.sun{
+
+    float: right;
+    display: flex;
+    flex-direction: row; 
+}
+.new{
+    padding-left: 80px;
+    font-size: 20px;
+}
+.our{
+    color:red;
+    
+    text-align: center;
+}
+.dis{
+    display: none;
+}
+.img{
+    display: flex;
+    flex-direction: column
+    padding-left : 20px;
+    padding-top : 10px;
+
+}
+
+.ann{
+    background-image: url('./image/annimation01.jpg');
+    position: relative;
+    
+    box-shadow: 1px 2px 5px 5px blueviolet;
+
+    animation: sushant 15s infinite linear;
+}
+@keyframes sushant{
+    0%{
+        background-image: url('./image/annimation04.jpg');
+    }
+    25%{
+     background-image: url('./image/milada-vigerova-p8Drpg_duLw-unsplash.jpg');
+    }
+    50%{
+  background-image: url('./image/ussama-azam-xgNSlx7DjYM-unsplash.jpg');
+    }
+    75%{
+        background-image: url('./image/signin.jpg');
+        weith:20%;
+    }
+}
+.ani:after{
+    
+    font-size: 25px;
+    float: right;
+    text-transform: uppercase;
+
+    background-color: rgb(255, 0, 149);
+    color: white;
+    content: '';
+    text-align: center;
+   
+    animation: text 20s infinite linear;
+    
+}
+@keyframes text{
+    0%{
+     
+         content: "DO";
+         align-content: flex-end;
+    }
+    20%{
+        content: "COME";
+        
+    }
+    40%{
+        content: "AND";
+        align-content: center;
+    }
+    60%{
+        content: "VISIT";
+        align-content: center;
+    }
+    80%{
+        content: "SANDHYA GARMENTS";
+        align-content:flex-end;
+    }
+
+}
+.hi{
+    align-items: center;
+}
+.credit{
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-indent: 20%;
+    text-shadow: rgb(78, 47, 255);
+}
+.creimg{
+    margin-left: 300px;
+}
+.anniname.after{
+    text-indent: 20%;
+    animation: sus 10s infinite linear;
+}
+@keyframes sus{
+    10%{
+        content: "Studies at IIT KANPUR";
+    }
+    20%{
+        content: "Studies at IIT KANPUR";
+    }
+    30%{
+        content: "Studies at IIT KANPUR";
+    }
+    50%{
+        content: "Studies at IIT KANPUR";
+    }
+    70%{
+        content: "Studies at IIT KANPUR";
+    }
+}
+.but{
+    background-size: 5%;
+    background-color: blue;
+    cursor: auto;
+    color: white;
+    display: block;
+
+}
